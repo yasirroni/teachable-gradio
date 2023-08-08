@@ -4,6 +4,9 @@ Short example project to build a Gradio interface based on model trained using t
 
 ## Usage
 
+See `nbs/` for complete examples. All examples should be compatible with Google Colab [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yasirroni/teachable-gradio/blob/master)
+
+
 ### Image classification
 
 1. Open `nbs/teachable_gradio.ipynb` in Google Colab and save it
