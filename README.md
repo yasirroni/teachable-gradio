@@ -2,10 +2,24 @@
 
 Short example project to build a Gradio interface based on model trained using teachablemachine.
 
+## Installation
+
+All examples should be compatible with Google Colab [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yasirroni/teachable-gradio/blob/master) and did not need any local installation. To install locally, you can use:
+
+```shell
+python3.12 -m venv env
+source env/bin/activate
+```
+
+## Examples
+
+List of examples available at `nbs/`:
+
+1. `gradio_tf.ipynb`: Gradio wrapper example using tensorflow image classification.
+1. `teachable_evaluate.ipynb`: Exploratory to check and evaluate model created by teachablemachine.
+1. `teachable_gradio.ipynb`: Gradio wrapper for deploying model created by teachablemachine.
+
 ## Usage
-
-See `nbs/` for complete examples. All examples should be compatible with Google Colab [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yasirroni/teachable-gradio/blob/master)
-
 
 ### Image classification
 

@@ -2,12 +2,12 @@
 
 ## Git Filter (temporarily deprecated)
 
-We use [`nb-clean`](https://github.com/srstevenson/nb-clean) to clean notebook metadata. Since `--remove-notebook-metadata` in not merged yet, you can use [this branch](https://github.com/yasirroni/nb-clean/tree/clean_notebook_metadata) instead.
+We use [`nb-clean`](https://github.com/srstevenson/nb-clean) to clean notebook metadata.
 
 To always clean any notebook on commit,
 
 ```shell
-nb-clean add-filter --remove-notebook-metadata
+nb-clean add-filter --remove-all-notebook-metadata
 ```
 
 To clean individual notebook, use below examples as reference,

@@ -1,0 +1,5 @@
+gradio==5.14.0
+h5py==3.12.1
+nb-clean==4.0.1
+setuptools==75.8.0
+tensorflow==2.18.0
